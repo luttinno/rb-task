@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-size: cover;
+  background-color: aquamarine;
+}
+
+.third-page {
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.forms {
+  width: 1098px;
+  height: 1080px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.resume {
+  width: 822px;
+  height: 1080px;
+  background-color: #ffffff;
+}
+
+.header {
+  margin-top: 35px;
+  width: 798px;
+  height: 54px;
+  border-bottom: 1px solid #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1a1a1a;
+}
+
+.header p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1a1a1a;
+}
+
+.back-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  color: #2e2e2e;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: absolute;
+  left: 48px;
+  top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position {
+  width: 798px;
+  height: 106px;
+  margin-top: 77px;
+}
+.position label {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.position input {
+  width: 798px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.first-date {
+  width: 371px;
+  height: 106px;
+}
+.first-date label {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.first-date input {
+  box-sizing: border-box;
+  width: 371px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  color: #4d4d4d;
+  padding: 16px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+.first-date p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2e2e2e;
+}
+
+.dates {
+  width: 798px;
+  height: 106px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 31px;
+}
+
+.about {
+  width: 798px;
+  height: 152px;
+  margin-top: 34px;
+}
+.about label {
+  width: 798px;
+  height: 21px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.about input {
+  width: 798px;
+  height: 123px;
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.next-btn {
+  margin-top: 53px;
+  width: 798px;
+  height: 138px;
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px solid #c1c1c1;
+  align-items: center;
+}
+.next {
+  width: 289px;
+  height: 48px;
+  border-radius: 4px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  background: #62a1eb;
+}
+
+#back-next {
+  width: 798px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 155px;
+}
+#back {
+  width: 113px;
+  height: 48px;
+  background: #6b40e3;
+  border-radius: 4px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+#nxt {
+  width: 151px;
+  height: 48px;
+  background: #6b40e3;
+  border-radius: 4px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.resume img {
+  width: 42px;
+  height: 42px;
+  margin-left: 78px;
+  margin-top: 994px;
+}
+
+#degrees {
+  width: 371px;
+  height: 48px;
+  background: #ffffff;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+}
+
+#degrees option {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #1a1a1a;
+}
